@@ -88,29 +88,29 @@ void setup() {
 }
 
 void loop() {
-      crup();
+      crup();  //Increase RED value
       
-      cgup();
+      cgup();  //Increase GREEN value
      
-      crdn();
+      crdn();  //Decrease RED value
        
-      cbup();
+      cbup();  //Increase BLUE value
        
-      cgdn();
+      cgdn();  //Decrease GREEN value
        
-      crup();
+      crup();  //Increase RED value
        
-      cbdn();
+      cbdn();  //Decrease BLUE value
        
-      cgup();
+      cgup();  //Increase GREEN value
        
-      cbup();
+      cbup();  //Increase BLUE value
        
-      crdn();
+      crdn();  //Decrease RED value
        
-      cgdn();
+      cgdn();  //Decrease GREEN value
        
-      cbdn();
+      cbdn();  //Decrease BLUE value
 
       delay(100); //optional delay
 }
