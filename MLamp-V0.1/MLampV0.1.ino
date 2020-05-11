@@ -19,7 +19,7 @@ char cb=0;
 void showit(){
   leds[0]=CRGB(cr,cg,cb);
   FastLED.show();
-  delay(50); // Change the delay accord
+  delay(50); // Change the delay according to your taste
   //Serial.print("R= ");
   //Serial.print(cr, DEC);
   //Serial.print(" | G= ");
